@@ -1,21 +1,24 @@
 import {useState} from "react";
+import { ReactComponent as ReactLogo } from "../../public/logo.svg";
 
 export default function Header() {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <header className={"h-20 bg-white"}>
-            <div className={"max-w-[1440px] mx-auto flex justify-between h-full py-2 items-center px-8"}>
+        <header className={"h-20 fixed top-0 left-0 z-50 w-screen"}>
+            <div className={"max-w-[1440px] mx-auto flex justify-between h-full py-4 items-center px-8"}>
                 <div className={"aspect-[1/1] h-full"}>
-                    <img src={"/logo.svg"} alt={"Logo"} className={"h-full w-full object-cover"}/>
+                    <ReactLogo className={"h-full w-full object-cover text-white"} />
                 </div>
-                <div onClick={() => setIsMenuOpen(!isMenuOpen)} role={"button"} className={"h-full aspect-[1/1] bg-orange-200 lg:hidden"}>
-
+                <div onClick={() => setIsMenuOpen(!isMenuOpen)} role={"button"} className={"w-8 h-8 relative lg:hidden"}>
+                        <span className="bg-black w-full h-1"></span>
+                        <span className="bg-black w-full h-1"></span>
+                        <span className="bg-black w-full h-1"></span>
                 </div>
                 <nav
-                    className={"h-screen duration-500 w-screen lg:justify-end fixed top-0 left-0 bg-white flex items-center justify-center lg:h-full lg:w-full lg:relative lg:translate-x-0 " + (isMenuOpen ? "translate-x-0" : "translate-x-full")}>
-                    <ul className={"flex flex-col lg:flex-row  items-center gap-6"}>
+                    className={"h-screen lg:bg-transparent duration-500 w-screen lg:justify-end fixed top-0 left-0 bg-white flex items-center justify-center lg:h-full lg:w-full lg:relative lg:translate-x-0 " + (isMenuOpen ? "translate-x-0" : "translate-x-full")}>
+                    <ul className={"flex flex-col lg:flex-row lg:text-white items-center gap-6"}>
                         <li className={"aspect-[1/1] h-20 mb-12 lg:hidden"}>
                             <img src={"/logo.svg"} alt={"Logo"} className={"h-full w-full object-cover"}/>
                         </li>
