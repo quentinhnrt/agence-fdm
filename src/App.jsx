@@ -7,7 +7,7 @@ function App() {
       <main>
           <Header />
           <div className="max-w-[1440px] mx-auto">
-              <div className={"max-w-[1280px] h-96 bg-green-200 mx-auto"}>
+              <div className={"max-w-[1280px] h-fit mx-auto"}>
 
               </div>
           </div>
