@@ -1,5 +1,6 @@
 import Header from "./Header/Header.jsx";
 import Footer from "./Footer/Footer.jsx";
+import Landing from "./Landing/Landing.jsx";
 
 function App() {
 
