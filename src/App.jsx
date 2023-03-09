@@ -2,6 +2,7 @@ import Header from "./Header/Header.jsx";
 import Footer from "./Footer/Footer.jsx";
 import Services from "./Services/Services.jsx";
 import About from "./About/About.jsx";
+import Contact from "./Contact/Contact.jsx";
 import Landing from "./Landing/Landing.jsx";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
               <Landing />
                 <Services />
                 <About />
+                <Contact />
               </div>
           </div>
           <Footer />
