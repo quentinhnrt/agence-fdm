@@ -2,7 +2,7 @@ import AboutCard from "./Components/AboutCard";
 
 export default function About() {
     return (
-        <div className="py-8" href="#about">
+        <div className="py-8" href="#qui-sommes-nous">
             <p className={"flex justify-center text-2xl font-bold my-4"}>Qui sommes-nous ?</p>
             <p className={"flex text-center justify-center my-4"}><b>Nom de l'agence</b>, c'est 5 étudiants en licence professionnelle créaweb à l'IUT de Lens. Passionés, curieux, polyvalents, nous sommes ouverts à la découverte de nouveaux projets.</p>
             <div className={"lg:grid lg:grid-cols-3 justify-center "}>

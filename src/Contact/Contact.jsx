@@ -1,6 +1,6 @@
 export default function Contact() {
     return (
-        <div href="#Contact">
+        <div className="py-8" href="#Contact">
             <p className={"flex justify-center text-2xl font-bold my-4"}>Nous contacter</p>
             <p className={"flex text-center justify-center my-4"}>Pour toute demande, envoyez-nous un message</p>
             <form className={"flex flex-col items-center justify-center"}>

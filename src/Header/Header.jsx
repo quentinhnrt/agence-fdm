@@ -24,8 +24,8 @@ export default function Header() {
                         </li>
                         <li className={"text-3xl lg:text-base"}><a href={"#landing"}>Accueil</a></li>
                         <li className={"text-3xl lg:text-base"}><a href={"#services"}>Services</a></li>
-                        <li className={"text-3xl lg:text-base"}><a href={"#realisation"}>Réalisations</a></li>
-                        <li className={"text-3xl lg:text-base"}><a href={"#qui-sommes-nous"}>Qui sommes nous ?</a></li>
+                        <li className={"text-3xl lg:text-base"}><a href={"#realisations"}>Réalisations</a></li>
+                        <li className={"text-3xl lg:text-base"}><a href={"#qui-sommes-nous"}>Qui sommes-nous ?</a></li>
                         <li className={"text-3xl lg:text-base"}><a href={"#contact"}>Contact</a></li>
                         <li onClick={() => setIsMenuOpen(!isMenuOpen)} role={"button"} className={"text-3xl lg:hidden"}>X</li>
                     </ul>
