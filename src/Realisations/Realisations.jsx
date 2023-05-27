@@ -7,8 +7,8 @@ import { Navigation } from "swiper";
 
 export default function Realisations() {
     return (
-        <div className="py-8" id="qui-sommes-nous">
-            <p className={"flex justify-center text-2xl font-bold my-4"}>Nos réalisations</p>
+        <div className="py-8" id="realisations">
+            <p className={"flex justify-center text-2xl font-bold my-4 underline decoration-orange-400"}>Nos réalisations</p>
 
             <Swiper navigation={true} modules={[Navigation]}
       spaceBetween={50}
@@ -17,25 +17,28 @@ export default function Realisations() {
       <SwiperSlide>
             <RealisationCard 
             title="Site web pour une alpiniste"
-            desc="Voici une description de réalisation"
-            image="https://i.pinimg.com/474x/f9/31/5a/f9315a536142491e7275702351895558.jpg"/></SwiperSlide>
+            desc="Création d'une maquette à partir d'un brief client, puis développement du site web avec Wordpress et Themosis."
+            link = "https://christinevogondy.ch"
+            image="/public/photos/christine-vogondy.png"/></SwiperSlide>
       <SwiperSlide>
             <RealisationCard 
             title="Site web - Portfolio d'étudiant"
             desc="Création d'un site web présentant le portfolio d'un étudiant, avec Wordpress et Themosis."
-            image="https://i.pinimg.com/474x/f9/31/5a/f9315a536142491e7275702351895558.jpg"/>
+            link="#"
+            image="/public/photos/fifteen-prod.png"/>
       </SwiperSlide>
       <SwiperSlide>
             <RealisationCard 
             title="Refonte d'un site web sous Wix"
             desc="Refonte graphique et ergonomique d'un site web existant"
-            image="https://i.pinimg.com/474x/f9/31/5a/f9315a536142491e7275702351895558.jpg"/>
+            link="https://www.elyetsespepites.fr/"
+            image="/public/photos/ely.png"/>
       </SwiperSlide>
       <SwiperSlide>
             <RealisationCard 
             title="Création de supports de communication"
-            desc="Création de supports de communication pour les réseaux sociaux"
-            image="https://i.pinimg.com/474x/f9/31/5a/f9315a536142491e7275702351895558.jpg"/>
+            desc="Création de supports de communication pour les réseaux sociaux et carte de visite"
+            image="/public/photos/ely.png"/>
       </SwiperSlide>
     </Swiper> 
         </div>
