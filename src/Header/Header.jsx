@@ -12,9 +12,9 @@ export default function Header() {
                     <ReactLogo className={"h-full w-full object-cover text-white"} />
                 </div>
                 <div onClick={() => setIsMenuOpen(!isMenuOpen)} role={"button"} className={"w-8 h-8 relative lg:hidden"}>
-                        <span className="bg-white w-full h-1"></span>
-                        <span className="bg-white w-full h-1"></span>
-                        <span className="bg-white w-full h-1"></span>
+                        <p className="bg-white w-full h-1"></p>
+                        <p className="bg-white w-full h-1 my-2"></p>
+                        <p className="bg-white w-full h-1"></p>
                 </div>
                 <nav
                     className={"h-screen lg:bg-transparent duration-500 w-screen lg:justify-end fixed top-0 left-0 bg-white flex items-center justify-center lg:h-full lg:w-full lg:relative lg:translate-x-0 " + (isMenuOpen ? "translate-x-0" : "translate-x-full")}>

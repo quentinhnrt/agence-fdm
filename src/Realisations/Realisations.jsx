@@ -8,7 +8,7 @@ import { Navigation } from "swiper";
 export default function Realisations() {
     return (
         <div className="py-8" id="realisations">
-            <p className={"flex justify-center text-2xl font-bold my-4 underline decoration-orange-400"}>Nos réalisations</p>
+            <p className={"flex justify-center text-center text-2xl font-bold my-4 underline decoration-orange-400"}>Nos réalisations</p>
 
             <Swiper navigation={true} modules={[Navigation]}
       spaceBetween={50}
@@ -32,7 +32,7 @@ export default function Realisations() {
             title="Refonte d'un site web sous Wix"
             desc="Refonte graphique et ergonomique d'un site web existant"
             link="https://www.elyetsespepites.fr/"
-            image="/public/photos/ely.png"/>
+            image="/public/photos/ely_wix.png"/>
       </SwiperSlide>
       <SwiperSlide>
             <RealisationCard 

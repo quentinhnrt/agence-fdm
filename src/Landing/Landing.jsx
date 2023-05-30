@@ -1,6 +1,6 @@
 export default function Landing() {
     return (
-        <div className={"w-full h-[60vh] mx-auto relative"}>
+        <div className={"w-full h-[60vh] mx-auto relative"} id="landing">
             <div className={"absolute top-0 left-1/2 -translate-x-1/2 block h-full w-screen z-0"}>
                 <div className={"h-full w-full bg-black/50 absolute top-0 left-0 z-10"}>
 

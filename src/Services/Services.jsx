@@ -3,7 +3,7 @@ import ServiceCard from "./Components/ServiceCard";
 export default function Services() {
     return (
         <div className="py-8" id="services">
-            <p className={"flex justify-center text-2xl font-bold my-4 underline decoration-orange-400"}>Nos services</p>
+            <p className={"flex justify-center text-center text-2xl font-bold my-4 underline decoration-orange-400"}>Nos services</p>
             <p className={"flex text-center justify-center my-4"}>L'agence propose différents services afin d'aider les clients à concevoir, développer et promouvoir leur site web.</p>
             <div className={"lg:grid lg:grid-cols-3 justify-center"}>
                 <ServiceCard service="UX/UI" 
