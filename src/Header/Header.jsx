@@ -1,5 +1,4 @@
-import {useState} from "react";
-import { ReactComponent as ReactLogo } from "../../public/logo.svg";
+import {useState} from "react";=
 
 export default function Header() {
 
