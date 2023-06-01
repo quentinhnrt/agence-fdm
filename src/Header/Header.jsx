@@ -9,7 +9,7 @@ export default function Header() {
         <header className={"h-20 fixed top-0 left-0 z-50 w-screen bg-orange-300"}>
             <div className={"max-w-[1440px] mx-auto flex justify-between h-full py-4 items-center px-8"}>
                 <div className={"aspect-[1/1] h-full"}>
-                    <img className="h-full w-full object-cover" src="/public/photos/logo_fdm_white.png" alt="Logo Fier de moi" />
+                    <img className="h-full w-full object-cover" src="/photos/logo_fdm_white.png" alt="Logo Fier de moi" />
                 </div>
                 <div onClick={() => setIsMenuOpen(!isMenuOpen)} role={"button"} className={"w-8 h-8 relative lg:hidden"}>
                         <p className="bg-white w-full h-1"></p>
@@ -20,7 +20,7 @@ export default function Header() {
                     className={"h-screen lg:bg-transparent duration-500 w-screen lg:justify-end fixed top-0 left-0 bg-white flex items-center justify-center lg:h-full lg:w-full lg:relative lg:translate-x-0 " + (isMenuOpen ? "translate-x-0" : "translate-x-full")}>
                     <ul className={"flex flex-col lg:flex-row lg:text-white items-center gap-6"}>
                         <li className={"aspect-[1/1] h-20 mb-12 lg:hidden"}>
-                        <img className="h-full w-full object-cover" src="/public/photos/logo_fdm_orange.png" alt="Logo Fier de moi" />
+                        <img className="h-full w-full object-cover" src="/photos/logo_fdm_orange.png" alt="Logo Fier de moi" />
                         </li>
                         <li className={"text-3xl lg:text-base text-orange-300 lg:text-white font-bold hover:underline hover:text-orange-100"}><a href={"#landing"}>Accueil</a></li>
                         <li className={"text-3xl lg:text-base text-orange-300 lg:text-white font-bold hover:underline hover:text-orange-100"}><a href={"#presentation"}>Présentation</a></li>
