@@ -7,7 +7,7 @@ export default function About() {
             <p className={"text-center justify-center my-4"}>L'agence<span className="font-bold"> Fier de moi</span>, c'est 5 étudiants en licence professionnelle créaweb à l'IUT de Lens. Passionés, curieux, polyvalents, nous sommes ouverts à la découverte de nouveaux projets.</p>
             <div className={"flex lg:items-center flex-wrap justify-center "}>
                 <AboutCard image="/public/photos/quentin.png" name="Quentin" role="Lead développeur fullstack" />
-                <AboutCard image="https://i.pinimg.com/474x/b0/1a/43/b01a43908d262eeb65208eccdf31aac9.jpg" name="Laurine" role="Designer UI/UX" />
+                <AboutCard image="/public/photos/laurine.jpg" name="Laurine" role="Designer UI/UX" />
                 <AboutCard image="/public/photos/kahina.jpg" name="Kahina" role="Communication" />
                 <AboutCard image="/public/photos/theo.jpg" name="Théo" role="Designer UI/UX"/>
                 <AboutCard image="/public/photos/roxane.jpg" name="Roxane" role="Développement front"/>
